@@ -2,17 +2,10 @@ package nl.tudelft.jpacman.sprite;
 
 import java.awt.Graphics;
 
-/**
- * Empty Sprite which does not contain any data. When this sprite is drawn,
- * nothing happens.
- *
- * @author Jeroen Roosen 
- */
 public class EmptySprite implements Sprite {
 
     @Override
     public void draw(Graphics graphics, int x, int y, int width, int height) {
-        // nothing to draw.
     }
 
     @Override
@@ -29,5 +22,4 @@ public class EmptySprite implements Sprite {
     public int getHeight() {
         return 0;
     }
-
 }
